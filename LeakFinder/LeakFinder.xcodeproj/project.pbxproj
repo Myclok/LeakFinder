@@ -7,50 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9491D58B1FB7938000B3186B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491D58A1FB7938000B3186B /* AppDelegate.swift */; };
-		9491D58D1FB7938000B3186B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491D58C1FB7938000B3186B /* ViewController.swift */; };
-		9491D5901FB7938000B3186B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9491D58E1FB7938000B3186B /* Main.storyboard */; };
-		9491D5921FB7938000B3186B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9491D5911FB7938000B3186B /* Assets.xcassets */; };
-		9491D5951FB7938000B3186B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9491D5931FB7938000B3186B /* LaunchScreen.storyboard */; };
-		9491D5A01FB7938100B3186B /* LifeTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491D59F1FB7938100B3186B /* LifeTrackerTests.swift */; };
-		9491D5AB1FB7942900B3186B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9491D5AA1FB7942900B3186B /* LICENSE */; };
-		9491D5AD1FB7943200B3186B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9491D5AC1FB7943200B3186B /* README.md */; };
+		949862941FB79F0900B470DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949862931FB79F0900B470DB /* AppDelegate.swift */; };
+		949862961FB79F0900B470DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949862951FB79F0900B470DB /* ViewController.swift */; };
+		949862991FB79F0900B470DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949862971FB79F0900B470DB /* Main.storyboard */; };
+		9498629B1FB79F0900B470DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9498629A1FB79F0900B470DB /* Assets.xcassets */; };
+		9498629E1FB79F0900B470DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9498629C1FB79F0900B470DB /* LaunchScreen.storyboard */; };
+		949862A91FB79F0900B470DB /* LeakFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949862A81FB79F0900B470DB /* LeakFinderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9491D59C1FB7938100B3186B /* PBXContainerItemProxy */ = {
+		949862A51FB79F0900B470DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9491D57F1FB7938000B3186B /* Project object */;
+			containerPortal = 949862881FB79F0900B470DB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9491D5861FB7938000B3186B;
-			remoteInfo = LifeTracker;
+			remoteGlobalIDString = 9498628F1FB79F0900B470DB;
+			remoteInfo = LeakFinder;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9491D5871FB7938000B3186B /* LifeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9491D58A1FB7938000B3186B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9491D58C1FB7938000B3186B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9491D58F1FB7938000B3186B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9491D5911FB7938000B3186B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9491D5941FB7938000B3186B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9491D5961FB7938100B3186B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9491D59B1FB7938100B3186B /* LifeTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9491D59F1FB7938100B3186B /* LifeTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeTrackerTests.swift; sourceTree = "<group>"; };
-		9491D5A11FB7938100B3186B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9491D5AA1FB7942900B3186B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9491D5AC1FB7943200B3186B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		949862901FB79F0900B470DB /* LeakFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeakFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		949862931FB79F0900B470DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		949862951FB79F0900B470DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		949862981FB79F0900B470DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9498629A1FB79F0900B470DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9498629D1FB79F0900B470DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9498629F1FB79F0900B470DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		949862A41FB79F0900B470DB /* LeakFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeakFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		949862A81FB79F0900B470DB /* LeakFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeakFinderTests.swift; sourceTree = "<group>"; };
+		949862AA1FB79F0900B470DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9491D5841FB7938000B3186B /* Frameworks */ = {
+		9498628D1FB79F0900B470DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9491D5981FB7938100B3186B /* Frameworks */ = {
+		949862A11FB79F0900B470DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,108 +56,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9491D57E1FB7938000B3186B = {
+		949862871FB79F0900B470DB = {
 			isa = PBXGroup;
 			children = (
-				9491D5AA1FB7942900B3186B /* LICENSE */,
-				9491D5AC1FB7943200B3186B /* README.md */,
-				9491D5891FB7938000B3186B /* LifeTracker */,
-				9491D59E1FB7938100B3186B /* LifeTrackerTests */,
-				9491D5881FB7938000B3186B /* Products */,
+				949862921FB79F0900B470DB /* LeakFinder */,
+				949862A71FB79F0900B470DB /* LeakFinderTests */,
+				949862911FB79F0900B470DB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9491D5881FB7938000B3186B /* Products */ = {
+		949862911FB79F0900B470DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9491D5871FB7938000B3186B /* LifeTracker.app */,
-				9491D59B1FB7938100B3186B /* LifeTrackerTests.xctest */,
+				949862901FB79F0900B470DB /* LeakFinder.app */,
+				949862A41FB79F0900B470DB /* LeakFinderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9491D5891FB7938000B3186B /* LifeTracker */ = {
+		949862921FB79F0900B470DB /* LeakFinder */ = {
 			isa = PBXGroup;
 			children = (
-				9491D58A1FB7938000B3186B /* AppDelegate.swift */,
-				9491D58C1FB7938000B3186B /* ViewController.swift */,
-				9491D58E1FB7938000B3186B /* Main.storyboard */,
-				9491D5911FB7938000B3186B /* Assets.xcassets */,
-				9491D5931FB7938000B3186B /* LaunchScreen.storyboard */,
-				9491D5961FB7938100B3186B /* Info.plist */,
+				949862931FB79F0900B470DB /* AppDelegate.swift */,
+				949862951FB79F0900B470DB /* ViewController.swift */,
+				949862971FB79F0900B470DB /* Main.storyboard */,
+				9498629A1FB79F0900B470DB /* Assets.xcassets */,
+				9498629C1FB79F0900B470DB /* LaunchScreen.storyboard */,
+				9498629F1FB79F0900B470DB /* Info.plist */,
 			);
-			path = LifeTracker;
+			path = LeakFinder;
 			sourceTree = "<group>";
 		};
-		9491D59E1FB7938100B3186B /* LifeTrackerTests */ = {
+		949862A71FB79F0900B470DB /* LeakFinderTests */ = {
 			isa = PBXGroup;
 			children = (
-				9491D59F1FB7938100B3186B /* LifeTrackerTests.swift */,
-				9491D5A11FB7938100B3186B /* Info.plist */,
+				949862A81FB79F0900B470DB /* LeakFinderTests.swift */,
+				949862AA1FB79F0900B470DB /* Info.plist */,
 			);
-			path = LifeTrackerTests;
+			path = LeakFinderTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9491D5861FB7938000B3186B /* LifeTracker */ = {
+		9498628F1FB79F0900B470DB /* LeakFinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9491D5A41FB7938100B3186B /* Build configuration list for PBXNativeTarget "LifeTracker" */;
+			buildConfigurationList = 949862AD1FB79F0900B470DB /* Build configuration list for PBXNativeTarget "LeakFinder" */;
 			buildPhases = (
-				9491D5831FB7938000B3186B /* Sources */,
-				9491D5841FB7938000B3186B /* Frameworks */,
-				9491D5851FB7938000B3186B /* Resources */,
+				9498628C1FB79F0900B470DB /* Sources */,
+				9498628D1FB79F0900B470DB /* Frameworks */,
+				9498628E1FB79F0900B470DB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LifeTracker;
-			productName = LifeTracker;
-			productReference = 9491D5871FB7938000B3186B /* LifeTracker.app */;
+			name = LeakFinder;
+			productName = LeakFinder;
+			productReference = 949862901FB79F0900B470DB /* LeakFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9491D59A1FB7938100B3186B /* LifeTrackerTests */ = {
+		949862A31FB79F0900B470DB /* LeakFinderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9491D5A71FB7938100B3186B /* Build configuration list for PBXNativeTarget "LifeTrackerTests" */;
+			buildConfigurationList = 949862B01FB79F0900B470DB /* Build configuration list for PBXNativeTarget "LeakFinderTests" */;
 			buildPhases = (
-				9491D5971FB7938100B3186B /* Sources */,
-				9491D5981FB7938100B3186B /* Frameworks */,
-				9491D5991FB7938100B3186B /* Resources */,
+				949862A01FB79F0900B470DB /* Sources */,
+				949862A11FB79F0900B470DB /* Frameworks */,
+				949862A21FB79F0900B470DB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9491D59D1FB7938100B3186B /* PBXTargetDependency */,
+				949862A61FB79F0900B470DB /* PBXTargetDependency */,
 			);
-			name = LifeTrackerTests;
-			productName = LifeTrackerTests;
-			productReference = 9491D59B1FB7938100B3186B /* LifeTrackerTests.xctest */;
+			name = LeakFinderTests;
+			productName = LeakFinderTests;
+			productReference = 949862A41FB79F0900B470DB /* LeakFinderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9491D57F1FB7938000B3186B /* Project object */ = {
+		949862881FB79F0900B470DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = Myclok;
 				TargetAttributes = {
-					9491D5861FB7938000B3186B = {
+					9498628F1FB79F0900B470DB = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
-					9491D59A1FB7938100B3186B = {
+					949862A31FB79F0900B470DB = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 9491D5861FB7938000B3186B;
+						TestTargetID = 9498628F1FB79F0900B470DB;
 					};
 				};
 			};
-			buildConfigurationList = 9491D5821FB7938000B3186B /* Build configuration list for PBXProject "LifeTracker" */;
+			buildConfigurationList = 9498628B1FB79F0900B470DB /* Build configuration list for PBXProject "LeakFinder" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -169,31 +163,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 9491D57E1FB7938000B3186B;
-			productRefGroup = 9491D5881FB7938000B3186B /* Products */;
+			mainGroup = 949862871FB79F0900B470DB;
+			productRefGroup = 949862911FB79F0900B470DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9491D5861FB7938000B3186B /* LifeTracker */,
-				9491D59A1FB7938100B3186B /* LifeTrackerTests */,
+				9498628F1FB79F0900B470DB /* LeakFinder */,
+				949862A31FB79F0900B470DB /* LeakFinderTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9491D5851FB7938000B3186B /* Resources */ = {
+		9498628E1FB79F0900B470DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9491D5951FB7938000B3186B /* LaunchScreen.storyboard in Resources */,
-				9491D5921FB7938000B3186B /* Assets.xcassets in Resources */,
-				9491D5AD1FB7943200B3186B /* README.md in Resources */,
-				9491D5AB1FB7942900B3186B /* LICENSE in Resources */,
-				9491D5901FB7938000B3186B /* Main.storyboard in Resources */,
+				9498629E1FB79F0900B470DB /* LaunchScreen.storyboard in Resources */,
+				9498629B1FB79F0900B470DB /* Assets.xcassets in Resources */,
+				949862991FB79F0900B470DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9491D5991FB7938100B3186B /* Resources */ = {
+		949862A21FB79F0900B470DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -203,46 +195,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9491D5831FB7938000B3186B /* Sources */ = {
+		9498628C1FB79F0900B470DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9491D58D1FB7938000B3186B /* ViewController.swift in Sources */,
-				9491D58B1FB7938000B3186B /* AppDelegate.swift in Sources */,
+				949862961FB79F0900B470DB /* ViewController.swift in Sources */,
+				949862941FB79F0900B470DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9491D5971FB7938100B3186B /* Sources */ = {
+		949862A01FB79F0900B470DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9491D5A01FB7938100B3186B /* LifeTrackerTests.swift in Sources */,
+				949862A91FB79F0900B470DB /* LeakFinderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9491D59D1FB7938100B3186B /* PBXTargetDependency */ = {
+		949862A61FB79F0900B470DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9491D5861FB7938000B3186B /* LifeTracker */;
-			targetProxy = 9491D59C1FB7938100B3186B /* PBXContainerItemProxy */;
+			target = 9498628F1FB79F0900B470DB /* LeakFinder */;
+			targetProxy = 949862A51FB79F0900B470DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9491D58E1FB7938000B3186B /* Main.storyboard */ = {
+		949862971FB79F0900B470DB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9491D58F1FB7938000B3186B /* Base */,
+				949862981FB79F0900B470DB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9491D5931FB7938000B3186B /* LaunchScreen.storyboard */ = {
+		9498629C1FB79F0900B470DB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9491D5941FB7938000B3186B /* Base */,
+				9498629D1FB79F0900B470DB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -250,7 +242,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9491D5A21FB7938100B3186B /* Debug */ = {
+		949862AB1FB79F0900B470DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -307,7 +299,7 @@
 			};
 			name = Debug;
 		};
-		9491D5A31FB7938100B3186B /* Release */ = {
+		949862AC1FB79F0900B470DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,101 +349,101 @@
 			};
 			name = Release;
 		};
-		9491D5A51FB7938100B3186B /* Debug */ = {
+		949862AE1FB79F0900B470DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8797AM6R3F;
-				INFOPLIST_FILE = LifeTracker/Info.plist;
+				INFOPLIST_FILE = LeakFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Myclok.LifeTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = Myclok.LeakFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9491D5A61FB7938100B3186B /* Release */ = {
+		949862AF1FB79F0900B470DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8797AM6R3F;
-				INFOPLIST_FILE = LifeTracker/Info.plist;
+				INFOPLIST_FILE = LeakFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Myclok.LifeTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = Myclok.LeakFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		9491D5A81FB7938100B3186B /* Debug */ = {
+		949862B11FB79F0900B470DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8797AM6R3F;
-				INFOPLIST_FILE = LifeTrackerTests/Info.plist;
+				INFOPLIST_FILE = LeakFinderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Myclok.LifeTrackerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Myclok.LeakFinderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeTracker.app/LifeTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeakFinder.app/LeakFinder";
 			};
 			name = Debug;
 		};
-		9491D5A91FB7938100B3186B /* Release */ = {
+		949862B21FB79F0900B470DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8797AM6R3F;
-				INFOPLIST_FILE = LifeTrackerTests/Info.plist;
+				INFOPLIST_FILE = LeakFinderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Myclok.LifeTrackerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Myclok.LeakFinderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeTracker.app/LifeTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeakFinder.app/LeakFinder";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9491D5821FB7938000B3186B /* Build configuration list for PBXProject "LifeTracker" */ = {
+		9498628B1FB79F0900B470DB /* Build configuration list for PBXProject "LeakFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9491D5A21FB7938100B3186B /* Debug */,
-				9491D5A31FB7938100B3186B /* Release */,
+				949862AB1FB79F0900B470DB /* Debug */,
+				949862AC1FB79F0900B470DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9491D5A41FB7938100B3186B /* Build configuration list for PBXNativeTarget "LifeTracker" */ = {
+		949862AD1FB79F0900B470DB /* Build configuration list for PBXNativeTarget "LeakFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9491D5A51FB7938100B3186B /* Debug */,
-				9491D5A61FB7938100B3186B /* Release */,
+				949862AE1FB79F0900B470DB /* Debug */,
+				949862AF1FB79F0900B470DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9491D5A71FB7938100B3186B /* Build configuration list for PBXNativeTarget "LifeTrackerTests" */ = {
+		949862B01FB79F0900B470DB /* Build configuration list for PBXNativeTarget "LeakFinderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9491D5A81FB7938100B3186B /* Debug */,
-				9491D5A91FB7938100B3186B /* Release */,
+				949862B11FB79F0900B470DB /* Debug */,
+				949862B21FB79F0900B470DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9491D57F1FB7938000B3186B /* Project object */;
+	rootObject = 949862881FB79F0900B470DB /* Project object */;
 }

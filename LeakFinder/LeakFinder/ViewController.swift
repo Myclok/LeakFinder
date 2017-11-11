@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  LifeTracker
+//  LeakFinder
 //
 //  Created by Vadim Komisarchik on 11/11/17.
 //  Copyright © 2017 Myclok. All rights reserved.

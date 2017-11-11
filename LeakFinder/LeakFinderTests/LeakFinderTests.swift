@@ -1,15 +1,15 @@
 //
-//  LifeTrackerTests.swift
-//  LifeTrackerTests
+//  LeakFinderTests.swift
+//  LeakFinderTests
 //
 //  Created by Vadim Komisarchik on 11/11/17.
 //  Copyright © 2017 Myclok. All rights reserved.
 //
 
 import XCTest
-@testable import LifeTracker
+@testable import LeakFinder
 
-class LifeTrackerTests: XCTestCase {
+class LeakFinderTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

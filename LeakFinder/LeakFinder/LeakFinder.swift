@@ -11,7 +11,11 @@ import Foundation
 struct LeakFinder {
     static let sharedInstance = LeakFinder()
     
-    func startTracking() {
+    func start() {
+        
+    }
+    
+    func stop() {
         
     }
 }

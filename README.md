@@ -1,4 +1,6 @@
 # LeakFinder
+[![Build Status](https://travis-ci.org/Myclok/LeakFinder.svg?branch=develop)](https://travis-ci.org/Myclok/LeakFinder)
+
 LeakFinder will notify you of any memory leaks that you have in your iOS app.  It will give you a warning of any View Controller that has a memory leak. 
 
 ##Installation

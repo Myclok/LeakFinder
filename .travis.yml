@@ -1,0 +1,5 @@
+language: swift
+osx_image: xcode9
+xcode_project: LeakFinder.xcodeproj # # path to project folder, replace {project_name} with the name of your project, If you are using a workspace instead of a project, use the xcode_workspace in place of xcode_project. Ex: xcode_workspace: {project_name}.workspace
+xcode_scheme: {shared_scheme_name} # Replace {shared_scheme_name} with a shared scheme in the project. Very important to create a shared scheme!
+script: xctool -project LeakFinder.xcodeproj -scheme SharedSchemeName build  CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO

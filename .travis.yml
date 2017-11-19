@@ -1,4 +1,6 @@
 language: swift
 osx_image: xcode9.1
 script:
-    - xcodebuild clean test -project LeakFinder.xcodeproj -scheme LeakFinder -destination "platform=iOS Simulator,name=iPhone 7,OS=11.1" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
+	- "xcodebuild -sdk iphonesimulator clean"
+	- "xcodebuild -scheme LeakFinder -project LeakFinder.xcodeproj -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.0' build-for-testing"
+	

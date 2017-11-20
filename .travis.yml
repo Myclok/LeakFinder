@@ -1,4 +1,4 @@
 language: objective-c
 osx_image: xcode9.1
 script:
-xcodebuild test -workspace LeakFinder.xcodeproj -scheme LeakFinder destination 'platform=iOS Simulator,name=iPhone 6s,OS=11.1' build test
+ - xcodebuild test -workspace LeakFinder.xcodeproj -scheme LeakFinder destination 'platform=iOS Simulator,name=iPhone 6s,OS=11.1' build test

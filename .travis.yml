@@ -1,4 +1,7 @@
 language: swift
 osx_image: xcode9.1
-script:
- - xcodebuild test -workspace LeakFinder.xcodeproj -scheme LeakFinder -destination 'platform=iOS Simulator,name=iPhone 6s,OS=11.1' build test
+xcode_workspace: LeakFinder.xcodeproj
+xcode_scheme: LeakFinder
+xcode_sdk: iphonesimulator11.1
+
+# - xcodebuild test -workspace LeakFinder.xcodeproj -scheme LeakFinder -destination 'platform=iOS Simulator,name=iPhone 6s,OS=11.1' clean build test
